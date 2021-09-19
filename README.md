@@ -65,5 +65,5 @@ Finally, the convolution neural network is used for automatic brain tumor classi
  <img src="./methodology.jpeg">
  <hr>
  <h2>Contributors</h2>
- <p><a href="https://github.com/Steveroger5">Gagandeep Singh</a></p>
+ <p><a href="https://github.com/ElvisSethi">Elvis Sethi</a></p>
  <hr>
