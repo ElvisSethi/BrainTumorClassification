@@ -26,7 +26,7 @@ The important factor in the medical diagnosis include the medical image data obt
 <h2>Dataset and Libraries</h2>
 <p>
 <b>Dataset : <a href="https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection">https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection</a></b><br>
-<b>Libraries : </b>Python , Numpy , Pandas, NLTK , Sklearn , Node.js , Express.js.<br>
+<b>Libraries : </b>Python , Numpy , Pandas, Sklearn , Node.js , Express.js.<br>
 <b>Frameworks : </b>VScode , jupyter Notebook , Heroku.<br>
 </p>
 <hr>
