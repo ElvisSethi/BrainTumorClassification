@@ -33,17 +33,13 @@ The important factor in the medical diagnosis include the medical image data obt
 <h2>Project Methodology</h2>
 <p>
 In this project I have developed a machine learning model to detect the presence of tumor in MRI scans of different people. The steps used in developing the machine learning model are of the one that are used in CNN.
-Below is brief description of every step and technique used by me.<br><br>
-<b>Tokenisation :</b> In this step first we break the given text into subsequent words involved.<br>
-<b>Stopword Removal :</b>In this step we remove the words that don't play a role in determining the polarity of a sentiment like is,am,are etc.<br>
-<b>Lemmatization :</b> Converting the words to thier base word using the part of speech tags and wordnet to convert it accordingly.<br>
-<b>Building dictionary :</b>In this step we combine every sentiment to get a wholesome dictionary from which we classify the top occuring words which wll further be used to convert the sentiment into a binary vector.<br>
-<b>Building Vectorizer :</b>In this step we basically check which words from the previous dictionary are present and absent at the same time. so now we have created a binary dataframe from the words in our dictionary.<br>
-<b>Applying the machine learning Models :</b>In this step i applied three machine learning models below are their names and their corresponding accuracy.<br>
-1. Naive Bayes Classifier : 79%<br>
-2. Logistic Regression : 82%<br>
-3. Support Vector Classifier : 84%<br>
-as we can see the SVC classifer gave the best Accuracy so i downloaded the SVC model using pickle library and used it in my flask application.
+Below is brief description of every step and technique used for CNN based Classification<br><br>
+Apply convolution filter in first layer<br>
+The sensitivity of filter is reduced by smoothing the convolution filter (i.e) subsampling<br>
+The signal transfers from one layer to another layer is controlled by activation layer<br>
+Fasten the training period by using rectified linear unit (RELU) <br>
+The neurons in proceeding layer is connected to every neuron in subsequent layer <br>
+During training Loss layer is added at the end to give a feedback to neural network <br>
 </p>
 <hr>
 <h2>ScreenShots of the Website Deployed</h2>
