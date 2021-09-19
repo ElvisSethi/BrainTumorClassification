@@ -38,15 +38,13 @@ In the training phase, preprocessing, feature exaction and classification with L
 Finally, the convolution neural network is used for automatic brain tumor classification. The brain image dataset is taken from image net. Image net is a one of the pre-trained model. If you want to train from the starting layer, we have to train the entire layer (i.e) up to ending layer.<br>  
 </p>
 <hr>
-<h2>ScreenShots of the Website Deployed</h2>
-<b><p>Entering a positive comment.</p></b>
+<h2>Screenshots of the working Website</h2>
+<b><p>Initial Page.</p></b>
 <img src="./sentiment analysis/pic1.png">
-<b><p>Predicting the output for the comment entered.</p></b>
+<b><p>After uploading the MRI scan.</p></b>
 <img src="./sentiment analysis/p2.png">
-<b><p>Entering a negative comment.</p></b>
+<b><p>Getting the required result after classification.</p></b>
 <img src="./sentiment analysis/p3.png">
-<b><p>Predicting the sentiment of the comment entered with comment below in the box.</p></b>
-<img src="./sentiment analysis/p4.png">
 <hr>
 <h2>Running the Project</h2>
 <p><b>1. Accesing the website online </b></p>
