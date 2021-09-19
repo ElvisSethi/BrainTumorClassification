@@ -32,14 +32,10 @@ The important factor in the medical diagnosis include the medical image data obt
 <hr>
 <h2>Project Methodology</h2>
 <p>
-In this project I have developed a machine learning model to detect the presence of tumor in MRI scans of different people. The steps used in developing the machine learning model are of the one that are used in CNN.
-Below is brief description of every step and technique used for CNN based Classification<br><br>
-Apply convolution filter in first layer<br>
-The sensitivity of filter is reduced by smoothing the convolution filter (i.e) subsampling<br>
-The signal transfers from one layer to another layer is controlled by activation layer<br>
-Fasten the training period by using rectified linear unit (RELU) <br>
-The neurons in proceeding layer is connected to every neuron in subsequent layer <br>
-During training Loss layer is added at the end to give a feedback to neural network <br>
+In this project I have developed a machine learning model to detect the presence of tumor in MRI scans of different people. The steps used in developing the machine learning model are of the one that are used in CNN.<br>
+Below is brief description of every step and technique used for CNN based Classification<br>
+In the training phase, preprocessing, feature exaction and classification with Loss function is performed to make a prediction model. Initially, label the training image set. In the preprocessing image resizing is applied to change size of the image.<br>
+Finally, the convolution neural network is used for automatic brain tumor classification. The brain image dataset is taken from image net. Image net is a one of the pre-trained model. If you want to train from the starting layer, we have to train the entire layer (i.e) up to ending layer.<br>  
 </p>
 <hr>
 <h2>ScreenShots of the Website Deployed</h2>
