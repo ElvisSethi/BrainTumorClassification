@@ -50,12 +50,12 @@ Finally, the convolution neural network is used for automatic brain tumor classi
 <hr>
 <h2>Running the Project</h2>
 <p><b>1. Accesing the website online </b></p>
-  <p> To access the website and check its working you can visit this link <a href="https://senti-analysis98.herokuapp.com/">https://senti-analysis98.herokuapp.com/</a> <br>
+  <p> To access the website and check its working you can visit this link <a href="https://brain-tumor-classifier1.herokuapp.com/">https://brain-tumor-classifier1.herokuapp.com/</a> <br>
  <p><b>2. Copying to local repository </b></p>
   <p> In your terminal run the following commands : <br><br>
      <b>
-     git clone https://github.com/Steveroger5/Sentiment_Analysis.git<br>
-     cd Sentiment_Analysis<br>
+     git clone https://git.heroku.com/brain-tumor-classifier1.git<br>
+     cd brain-tumor-classifier1<br>
      python app.py<br>
      Open https://localhost:3000 <br>
      </b>
