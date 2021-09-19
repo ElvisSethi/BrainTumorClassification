@@ -17,23 +17,22 @@ How quickly a brain tumor grows can vary greatly. The growth rate as well as loc
 # BrainTumorClassification
 <h2>Overview</h2>
 <p>
-Sentiment Analysis refers to detecting the polarity of any comment whether it is having a positive meaning or negative. It has multiple applications for example in checking review of a newly launched movie , for checking sentiment about any movement like kissan andolan and also for automatic feedback classification and many more.
+The important factor in the medical diagnosis include the medical image data obtained from various biomedical devices that uses different imaging techniques like X-ray, CT Scan, MRI. The conventional method for tumor detection in MRI image is human inspection. This method is very time consuming. It is not appropriate for large amount of data. In this model an efficient automated classification technique for brain MRI is proposed using machine learning algorithms. The CNN machine learning algorithm is used for classification of brain MR image.
 </p>
 <p>
-<b>Project Link Online Deployed on Heroku : <a href="https://senti-analysis98.herokuapp.com/">https://senti-analysis98.herokuapp.com/</a></b>
+<b>Project Link Online Deployed on Heroku : <a href="https://brain-tumor-classifier1.herokuapp.com/">https://brain-tumor-classifier1.herokuapp.com/</a></b>
 </p>
 <hr>
-<h2>Dataset and libraries</h2>
+<h2>Dataset and Libraries</h2>
 <p>
-<b>Dataset : </b>NLTK Dataset which containes the positive and Negative fileids<br>
+<b>Dataset : <a href="https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection">https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection</a></b>
 <b>Libraries : </b>Python , Numpy , Pandas, NLTK , Sklearn , Node.js , Express.js.<br>
 <b>Frameworks : </b>VScode , jupyter Notebook , Heroku.<br>
-<b>Notebook For developing the Machine Learning model : </b> <a href="https://colab.research.google.com/drive/1PymrpibwZIB7l1GyfrmLLEn7VU9JBqfY?usp=sharing">https://colab.research.google.com/drive/1PymrpibwZIB7l1GyfrmLLEn7VU9JBqfY?usp=sharing</a>
 </p>
 <hr>
 <h2>Project Methodology</h2>
 <p>
-In this project I have developed a machine learning model to classify the polarity of the sentiment or any given text.The steps used in developing the machine learning model are of the one that are used in the natural language processing (NLP).
+In this project I have developed a machine learning model to detect the presence of tumor in MRI scans of different people. The steps used in developing the machine learning model are of the one that are used in CNN.
 Below is brief description of every step and technique used by me.<br><br>
 <b>Tokenisation :</b> In this step first we break the given text into subsequent words involved.<br>
 <b>Stopword Removal :</b>In this step we remove the words that don't play a role in determining the polarity of a sentiment like is,am,are etc.<br>
