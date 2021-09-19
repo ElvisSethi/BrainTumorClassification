@@ -42,9 +42,9 @@ Finally, the convolution neural network is used for automatic brain tumor classi
 <b><p>Initial Page.</p></b>
 <img src="img/the1.png">
 <b><p>After uploading the MRI scan.</p></b>
-<img src="./sentiment analysis/p2.png">
+<img src="img/the2.png">
 <b><p>Getting the required result after classification.</p></b>
-<img src="./sentiment analysis/p3.png">
+<img src="img/the3.png">
 <hr>
 <h2>Running the Project</h2>
 <p><b>1. Accesing the website online </b></p>
