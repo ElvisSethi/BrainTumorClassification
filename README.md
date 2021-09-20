@@ -22,7 +22,7 @@ In the training phase, preprocessing, feature exaction and classification with L
 Finally, the convolution neural network is used for automatic brain tumor classification. The brain image dataset is taken from image net. Image net is a one of the pre-trained model.Convolution filter is applied in the first layer and the sensitivity of filter is reduced by smoothing the convolution filter (i.e) subsampling. Then we fasten the training period by using rectified linear unit (RELU). The neurons in proceeding layer is connected to every neuron in subsequent layer<br>  
 </p>
 <hr>
-<h2>Screenshots of the working Website</h2>
+<h2>Screenshots of the working Webapp</h2>
 <b><p>Initial Page.</p></b>
 <img src="img/the1.png">
 <b><p>After uploading the MRI scan.</p></b>
